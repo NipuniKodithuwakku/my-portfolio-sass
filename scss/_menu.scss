@@ -7,4 +7,12 @@
     top: 35px;
     cursor: pointer;
     @include easeOut;
+
+    .btn-line{
+        width: 28px;
+        height: 3px;
+        margin: 0 0 5px 0;
+        background: white;
+        @include easeOut;
+    }
 }
