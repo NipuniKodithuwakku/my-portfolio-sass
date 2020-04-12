@@ -67,7 +67,7 @@ main {
 
 .about-info {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 20px;
   grid-template-areas:
     "bioimage bio bio"
     "job1 job2 job3";
@@ -87,11 +87,18 @@ main {
 
 .job-1 {
   grid-area: job1;
+  border-bottom: $secondary-color 3px solid;
 }
 
 .job-2 {
   grid-area: job2;
+  border-bottom: $secondary-color 3px solid;
 }
-.job-1 {
+.job-3 {
   grid-area: job3;
+  border-bottom: $secondary-color 3px solid;
+}
+
+.job-heading {
+  font-size: 15px;
 }
